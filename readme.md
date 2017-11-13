@@ -4,8 +4,8 @@ git remote rm origin
 
 curl -u 'kwokhung' https://api.github.com/user/repos -d '{"name":"testStencil"}'
 git remote rm origin
-git remote add origin git@github.com:kwokhung/testStencil.git
-git push origin master
+git remote add origin https://github.com/kwokhung/testStencil.git
+git push -u origin master
 
 npm uninstall -g npm
 
